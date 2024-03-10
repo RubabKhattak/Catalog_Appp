@@ -9,9 +9,7 @@ class Homepage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.deepPurple,
-        title: const Center(child: Text("Abbabeel")),
-      ),
+          title: Center(child: Text("Catalog App"))),
       body: Center(
         child: Text("Welcome to $days days of flutter by $name"),
       ),
